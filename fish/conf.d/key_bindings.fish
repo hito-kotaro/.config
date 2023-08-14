@@ -1,5 +1,5 @@
 # self setting keybinding
 function  fish_user_key_bindings
   bind \cr 'peco_select_history (commandline -b)'
-  bind \ct 'tmux -f ~/.config/tmux/.tmux.conf'
+  bind \ct 'tmux -f ~/.config/tmux/tmux.conf'
 end
